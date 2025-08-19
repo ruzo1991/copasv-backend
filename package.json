@@ -1,0 +1,21 @@
+{
+  "name": "copasv-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CMS para Copa San Vicente 2025",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "strapi": "4.24.3",
+    "strapi-plugin-i18n": "4.24.3",
+    "strapi-plugin-users-permissions": "4.24.3",
+    "pg": "^8"
+  }
+}
